@@ -11,8 +11,22 @@ public Matematika (double bil1, double bil2) {
 
 //PENJUMLAHAN
 double setPenjumlahan(){
-    return bil1 +bil2;
+    return bil1 + bil2;
 }
-        
+
+//PENGURANGAN
+double setPengurangan(){
+    return bil1 - bil2; 
+}
+
+//PERKALIAN
+double setPerkalian(){
+    return bil1 * bil2;
+}
+
+//PEMBAGIAN
+double setPembagian(){
+    return bil1 / bil2;
+}
     
 }
